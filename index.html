@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shark47</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/tippy.js@6/animations/scale.css"
+/>
+<style>
+
+        #particles-js {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; 
+        }
+
+        input[type=button] {
+            width: 250px;
+            height: 80px;
+            font-size: 20pt;
+            background-color: rgba(0, 0, 0, 0.722);
+            position: absolute;
+            color: rgba(255, 255, 255, 0.583);
+            border: 1px solid rgba(255, 255, 255, 0.583);
+            border-radius: 10px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        input[type = button]:hover {
+            color: white;
+            border-color: white;
+        }
+
+
+      
+</style>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+        
+            <input type="button" value="Entrar" id="entrar">
+        
+
+    <audio id="audio" preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+      </audio>
+   
+    <header>
+        <img id="logo" src="imgs/logo sem fundo.png" alt="">
+    </header>
+        <main>
+            <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://pm1.aminoapps.com/7123/9aff01a8f27cab834ee6d3a5c6d6ef7bd4a9ead1r1-588-636v2_uhq.jpg" alt="">
+                </div>
+                <h1 id="empty">Emptyxz</h1>
+                
+                <div class="icones">
+                    <img class="owner" id="dev" src="imgs/9860-ownerbadge.png" alt="">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth12" src="imgs/5974-evolving-badge-nitro-12.png" alt="">
+                    <img class="dev" id="dev" src="imgs/5579-developerbadge.png" alt="">
+
+                </div>
+
+                <span>Developer</span>
+                
+            </div>
+
+            <!--OUTRO MEMBRO-->
+
+            <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://images-ext-1.discordapp.net/external/MYGUcQRiKJGXvgQjDMtTTienvGvnKN_Lv1p6-SC2tQ0/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/1202716538503696418/a_232d768b611c9f6ab361b3c527e004ae.gif" alt="">
+                </div>
+                <h1>Killer3dxdm</h1>
+                
+                <div class="icones">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth1" src="imgs/4390-evolving-badge-nitro-1-months.png" alt="">
+
+                </div>
+
+                <span>CEO</span>
+                
+            </div>
+
+             <!--OUTRO MEMBRO-->
+
+             <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://images-ext-2.discordapp.net/external/iHEWTC0usHd-PgGWIskImA8BKtJLa6xl07fhExGsBWk/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/327456311069376512/a_f5d2bc7a5b0c92e4ce138ee47fda67a0.gif" alt="">
+                </div>
+                <h1>Rafael</h1>
+                
+                <div class="icones">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth24" src="imgs/1837-evolving-badge-nitro-24-months.png" alt="">
+
+                </div>
+
+                <span>Admin</span>
+                
+            </div>
+
+             <!--OUTRO MEMBRO-->
+
+             <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://images-ext-1.discordapp.net/external/kO1FbIidEXOvvg-E4uEtTQ2pFuZeRaQecKS0woPfb4U/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/999130167597350942/a_1b3099d9ee2babc63708a150ccbcca3c.gif" alt="">
+                </div>
+                <h1>Mottaz</h1>
+                
+                <div class="icones">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth1" src="imgs/4390-evolving-badge-nitro-1-months.png" alt="">
+
+                </div>
+
+                <span>Admin</span>
+                
+            </div>
+
+             <!--OUTRO MEMBRO-->
+             <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://images-ext-2.discordapp.net/external/t0x2k4EZS90-i_q6UdMcRpFwUZnu5xoNz7ZwR1OhsWo/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/1006673602730545253/5b1cd1b99f4d166ba78c285741701e70.png?format=webp&quality=lossless" alt="">
+                </div>
+                <h1>gkn</h1>
+                
+                <div class="icones">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth12" src="imgs/5974-evolving-badge-nitro-12.png" alt="">
+
+                </div>
+
+                <span>Admin</span>
+                
+            </div>
+
+             <!--OUTRO MEMBRO-->
+
+             <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://images-ext-2.discordapp.net/external/v8_TliPE6af6QgrwlqCu8YOAi4_bQ5dxb2BRbrn7s18/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/852317704446541834/713d4f2f6972a59c1cf37ee0c1758534.png?format=webp&quality=lossless" alt="">
+                </div>
+                <h1>Borgessss7</h1>
+                
+                <div class="icones">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth1" src="imgs/4390-evolving-badge-nitro-1-months.png" alt="">
+                </div>
+
+                <span>Team</span>
+                
+            </div>
+
+             <!--OUTRO MEMBRO-->
+
+             <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://images-ext-2.discordapp.net/external/VDUaZ4nn33vxQSzNahnd28DZGWC_WorP3ggYU9Nr5iQ/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/834221849009324052/9d74f08e892e75d2cacc5b95e67805dc.png?format=webp&quality=lossless" alt="">
+                </div>
+                <h1>Huzar</h1>
+                
+                <div class="icones">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth18" src="imgs/4340-evolving-badge-nitro-18-months.png" alt="">
+
+                </div>
+
+                <span>Team</span>
+                
+            </div>
+
+             <!--OUTRO MEMBRO-->
+
+             <div id="card">
+                <div class="perfil">
+                    <img id="perfillogo" src="https://images-ext-1.discordapp.net/external/8iTK4RLd5PQv4lBrI6JNRmiM3rl9Y9Dwqznkw00NbP8/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/929778158922772541/7f1da03ba86a3cb7e1e5f5d26a7211ec.png?format=webp&quality=lossless" alt="">
+                </div>
+                <h1>7beestt</h1>
+                
+                <div class="icones">
+                    <img class="nitro" src="imgs/2420-nitrobadge.png" alt="">
+                    <img class="mounth1" src="imgs/4390-evolving-badge-nitro-1-months.png" alt="">
+
+                </div>
+
+                <span>Team</span>
+                
+            </div>
+
+             
+            
+           
+        </main>
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+        <script src="assets/js/script.js"></script>
+
+        <script>
+            tippy('.owner', {
+        content: "Owner",
+        animation: 'scale',
+        });
+
+        tippy('.dev', {
+        content: "Developer",
+        animation: 'scale',
+        });
+
+        tippy('.nitro', {
+        content: "Nitro Booster Active",
+        animation: 'scale',
+        });
+
+        tippy('.mounth12', {
+        content: "12 Mounth",
+        animation: 'scale',
+        });
+
+         tippy('.mounth24', {
+        content: "24 Mounth",
+        animation: 'scale',
+        });
+
+        tippy('.mounth1', {
+        content: "1 Mounth",
+        animation: 'scale',
+        });
+
+        tippy('.mounth24', {
+        content: "24 Mounth",
+        animation: 'scale',
+        });
+
+
+
+        document.addEventListener('click', function() {
+    var audio = new Audio('caminho/do/arquivo-de-som.mp3');
+    audio.play();
+});
+
+
+        </script>
+        
+</body>
+</html>
